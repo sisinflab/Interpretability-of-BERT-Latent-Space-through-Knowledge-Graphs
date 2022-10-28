@@ -14,7 +14,7 @@ To the best of our knowledge, this is the first attempt at interpreting the BERT
 
 ## Citation
 
-If you use our work for your activities, please cite with the following:
+If you use our work for your activities, please cite us with the following:
 
 ```
 @inproceedings{10.1145/3511808.3557617,
