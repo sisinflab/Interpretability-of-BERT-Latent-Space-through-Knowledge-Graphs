@@ -1,4 +1,5 @@
 # Interpretability of BERT Latent Space through Knowledge Graphs
+
 Here the code we implemented to interpret and explain the BERT language model through the latent space it generates. The work identifies a feasibility study of analyzing BERT's latent semantic space using a knowledge graph.
 
 ## Citation
@@ -22,7 +23,9 @@ series = {CIKM '22}
 }
 ```
 
-# Ontobert
+# Running the code
+
+Here the instruction to reproduce our experiments discussed in our paper.
 
 ## Prerequisites
 
@@ -39,16 +42,20 @@ Build the image with:
 docker build --tag ontobert
 ```
 
-And run it with:
+Run it with:
 
 ```
 docker run -it --gpus all ontobert
 ```
 
-## How To
+## Running with python venv
+
+Create the python virtual environment and install the requirements.txt.
 
 Before running tasks, modify the configuration files (.yml files in the
 tasks/configs directory) as needed.
+
+To reproduce our configurtation, just follow these instructions without modifying the .yml files.
 
 To run the link prediction task:
 
