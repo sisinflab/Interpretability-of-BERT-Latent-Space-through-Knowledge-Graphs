@@ -1,0 +1,1 @@
+from .LinkPredictor import LinkPredictor
