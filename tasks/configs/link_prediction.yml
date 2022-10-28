@@ -1,0 +1,16 @@
+dataset: FB15K-237
+filter_missing: 'Labels,Descriptions'  # 'None' or 'Labels' or 'Labels,Descriptions'
+model: TransE
+embedding_mode: Trainable  # 'BERT' or 'Trainable' if ALL embeddings should be trained
+train_relations: True
+use_entity_descriptions: True
+max_epochs: 100
+early_stopping_delay: 500
+optimizer: SGD
+train_params:
+    learning_rate: [0.01, 0.001]
+    distance: ['L1']
+    margin: [1]
+    batch_size: [1200]
+    entity_shape: [[768]]
+    relation_shape: [[768]]

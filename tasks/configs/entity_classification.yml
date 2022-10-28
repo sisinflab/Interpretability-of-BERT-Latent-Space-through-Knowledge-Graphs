@@ -1,0 +1,9 @@
+dataset: FB15K
+top_classes: 20
+equal_sampling: True
+test_split: 0.2
+decision_threshold: 0.5
+train_params:
+    learning_rate: [0.001, 0.01, 0.1]
+    hidden_layers: [[], [150,], [300,],]
+    batch_size: [16, 32]
