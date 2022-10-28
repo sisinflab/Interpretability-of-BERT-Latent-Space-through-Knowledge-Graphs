@@ -41,16 +41,3 @@ To run the entity_classification task:
 python tasks/entity_classification.py --config tasks/configs/entity_classification.yml
 ```
 
-
-## References
-
-* Bordes, Antoine, et al. Translating embeddings for modeling multi-relational
-  data. Proceedings of NIPS, 2013.
-
-* Wang, Z., Zhang, J., Feng, J., & Chen, Z. (2014). Knowledge Graph Embedding
-  by Translating on Hyperplanes. Proceedings of the AAAI Conference on
-  Artificial Intelligence, 28(1). https://doi.org/10.1609/aaai.v28i1.8870
-
-* Embedding Entities and Relations for Learning and Inference in Knowledge
-  Bases, Bishan Yang, Scott Wen-tau Yih, Xiaodong He, Jianfeng Gao and Li Deng,
-  ICLR 2015.
